@@ -230,6 +230,7 @@
 .staff {
   padding-top: 100px;
   padding-bottom: 140px;
+  background-image: url(../images/staff_picks_background.jpg);
 }
 
 .staff__title {
@@ -237,6 +238,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #ffffff;
 }
 
 .staff__subtitle {
@@ -245,13 +247,14 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 0;
+  color: #ffffff;
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
-.card__staff {
+.staff__card {
   max-width: 760px;
-  margin-top: 68px;
+
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -259,7 +262,7 @@
   gap: 40px;
   list-style-type: none;
   padding-left: 0;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 .card {
   background-color: #fff;
@@ -268,6 +271,7 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
+  margin-top: 68px;
 }
 
 .card__content {
@@ -289,9 +293,10 @@
   font-size: 16px;
   line-height: 24px;
 }
-.backgound-image {
+.background-image {
+  background-position: center;
   background-repeat: no-repeat;
-  z-index: 1;
+  background-size: contain;
 }
 
 .card__footer {
@@ -323,11 +328,17 @@
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Add styles */
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 .step {
-  /* Add styles */
+  max-width: 220px;
+  padding: 40px;
+  color: #000000;
 }
 
 .step__title {
@@ -362,6 +373,10 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  position: absolute;
+  max-width: 154px;
+  display: flex;
+  padding-left: 120px;
 }
 
 .about__content {
@@ -373,6 +388,10 @@
 
 .about__paragraph {
   margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
 .about__circle {
