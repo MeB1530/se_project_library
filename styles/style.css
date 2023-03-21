@@ -364,7 +364,7 @@
   overflow: hidden;
   box-sizing: border-box;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .about__title {
@@ -373,9 +373,8 @@
   line-height: 30px;
   font-weight: 500;
   max-width: 154px;
-  display: flex;
-  justify-content: flex-start;
   padding-right: 120px;
+  z-index: 1;
 }
 
 .about__content {
@@ -383,6 +382,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  z-index: 1;
 }
 
 .about__paragraph {
@@ -396,9 +396,9 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
-  z-index: 0;
-  padding-left: 91px;
-  padding-top: 121px;
+  position: absolute;
+  top: 121px;
+  left: 91px;
 }
 
 .footer {
