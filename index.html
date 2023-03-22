@@ -22,19 +22,19 @@
           <!-- Putting navigation links in a list is supposed to be the best practice of writing the semantic code since it allows screen readers to pause between each link instead of reading all the links as a sentence. -->
           <ul class="nav__links">
             <li>
-              <a class="nav__link">Staff picks</a>
+              <a href="#staff">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link">Events</a>
+              <a href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link">Become a member</a>
+              <a href="#member">Become a member</a>
             </li>
             <li>
-              <a class="nav__link">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a class="nav__link">Contacts</a>
+              <a href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -59,7 +59,7 @@
       </header>
 
       <main class="content">
-        <section class="events">
+        <section id="events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -142,9 +142,10 @@
               />
             </div>
           </div>
+          <a href="#events"></a>
         </section>
 
-        <section class="staff">
+        <section id="staff" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__card">
@@ -216,9 +217,10 @@
               </div>
             </li>
           </ul>
+          <a href="#staff"></a>
         </section>
 
-        <section class="membership">
+        <section id="membership" class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -272,9 +274,10 @@
               </p>
             </li>
           </ul>
+          <a href="#membership"></a>
         </section>
 
-        <section class="about">
+        <section id="about" class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -295,63 +298,58 @@
               the American Geophysical Union.
             </p>
           </div>
+          <a href="#about"></a>
           <div class="about__circle"></div>
         </section>
       </main>
-      <footer class="footer">
-        <div class="footer_column">
-          <p class="footer__logo">
-            Practicum
+      <footer id="footer" class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
             <img
               src="./images/logo_white.png"
-              alt="Practicum Logo"
+              alt="Practicum
+            Logo"
               class="footer__logo"
             />
-          </p>
-        </div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column footer__column_content_hours">
+              <h2 class="footer__column-heading">Hours</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">Weekdays:9am-8pm</li>
+                <li class="footer__list-item">Weekends:10am-6pm</li>
+              </ul>
+            </div>
 
-        <div class="footer_column">
-          <h4 class="footer__column-heading">Hours</h4>
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <h5 class="footer__column-heading">Weekdays:9am-8pm</h5>
-            </li>
-            <li class="footer__list-item">
-              <h5 class="footer__column-heading">Weekends:10am-6pm</h5>
-            </li>
-          </ul>
-          <p class="footer__column_content_hours"></p>
-        </div>
-
-        <div class="footer__column">
-          <h4 class="footer__column-heading">Social media</h4>
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <h5 class="footer__column-link">
-                Facebook
-                <a href="https://Facebook.com">
-                  <img
-                    src="images/facebook_white.svg"
-                    alt="Facebook Icon"
-                  />Facebook</a
-                >
-              </h5>
-            </li>
-            <li class="footer__list">
-              <h5 class="footer__column-link">
-                Instagram
-                <a href="https://instagram.com">
-                  <img
-                    src="./images/instagram_white.svg"
-                    alt="Instagram Icon"
-                  />Instgram</a
-                >
-              </h5>
-            </li>
-          </ul>
-          <p class="footer__column_content_social"></p>
+            <div class="footer__column footer__column_content_social">
+              <h2 class="footer__column-heading">Social media</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="#" class="footer__column-link">
+                    <img
+                      src="images/facebook_white.svg"
+                      alt="Facebook Icon"
+                      class="footer__social-icon"
+                    />
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="#" class="footer__column-link">
+                    <img
+                      src="./images/instagram_white.svg"
+                      alt="Instagram Icon"
+                      class="footer__social-icon"
+                    />
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <p class="footer__copyright">@ 2023 Brandy Bailey</p>
+        <a href="#footer"></a>
       </footer>
     </div>
   </body>
