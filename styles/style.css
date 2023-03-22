@@ -4,7 +4,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0 auto;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 
 .header {
@@ -21,7 +21,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo {
@@ -43,6 +43,7 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+  transition: color 1s;
 }
 
 .nav__link:hover {
@@ -52,15 +53,18 @@
 .header__title {
   font-size: 66px;
   line-height: 76px;
-  font-weight: 500;
+  font-weight: 500 bold;
   max-width: 544px;
-  margin-bottom: 0%;
+  margin-bottom: 0;
+  margin-top: 150px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
+  margin-top: 32px;
+  margin: 0;
 }
 
 .header__image {
@@ -86,6 +90,7 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: color 1s;
 }
 
 .header__link:hover {
@@ -102,6 +107,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f3;
 }
 
 .events__content {
@@ -110,7 +116,7 @@
 
 .events__heading {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500 bold;
   line-height: 30px;
   margin: 0;
 }
@@ -158,7 +164,7 @@
 
 .events__description {
   margin: 40px 0 60px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   max-width: 532px;
 }
@@ -258,7 +264,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 24px 0 0;
+  margin: 0 0 68px 0;
   color: #ffffff;
 }
 
@@ -282,7 +288,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  margin-top: 68px;
 }
 
 .card__content {
@@ -303,11 +308,6 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-}
-.background-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .card__footer {
@@ -333,6 +333,7 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
+  margin-bottom: 40px;
 }
 
 .membership__steps {
@@ -340,15 +341,15 @@
   padding: 0;
   margin: 100px 0 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
   align-content: center;
+  gap: 40px;
 }
 
 .step {
   max-width: 220px;
-  padding: 40px;
   color: #000000;
 }
 
@@ -401,7 +402,7 @@
 .about__paragraph {
   margin: 0;
   margin-bottom: 0;
-  padding-bottom: 32px;
+  padding-bottom: 0;
 }
 
 .about__circle {
@@ -472,6 +473,9 @@
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 1s;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
