@@ -53,7 +53,8 @@
 .header__title {
   font-size: 66px;
   line-height: 76px;
-  font-weight: 500 bold;
+  font-weight: bold;
+  font-weight: 500;
   max-width: 544px;
   margin-bottom: 0;
   margin-top: 150px;
@@ -116,7 +117,8 @@
 
 .events__heading {
   font-size: 20px;
-  font-weight: 500 bold;
+  font-weight: 500;
+  font-weight: bold;
   line-height: 30px;
   margin: 0;
 }
