@@ -90,7 +90,7 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  transition: color 1s;
+  transition: color 0.3s;
 }
 
 .header__link:hover {
@@ -406,6 +406,9 @@
   margin-bottom: 32px;
   padding-bottom: 0;
 }
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
 
 .about__circle {
   background-color: #2f80ed;
@@ -477,7 +480,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  transition: color 1s;
+  transition: color 0.3s;
 }
 .footer__column-link:hover {
   color: #c1c1c1;
