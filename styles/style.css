@@ -43,7 +43,7 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
-  transition: color 1s;
+  transition: color 0.3s;
 }
 
 .nav__link:hover {
@@ -64,8 +64,7 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 532px;
-  margin-top: 32px;
-  margin: 0;
+  margin: 32px 0 0;
 }
 
 .header__image {
@@ -118,7 +117,6 @@
 .events__heading {
   font-size: 20px;
   font-weight: 500;
-  font-weight: bold;
   line-height: 30px;
   margin: 0;
 }
@@ -167,7 +165,7 @@
 .events__description {
   margin: 40px 0 60px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 20px;
   max-width: 532px;
 }
 
@@ -251,6 +249,8 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .staff__title {
@@ -335,7 +335,7 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .membership__steps {
@@ -403,7 +403,7 @@
 
 .about__paragraph {
   margin: 0;
-  margin-bottom: 0;
+  margin-bottom: 32px;
   padding-bottom: 0;
 }
 
